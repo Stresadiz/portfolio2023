@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+}
+
+.left-side{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.right-side{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-left:3px solid rgba(0, 0, 0, 0.65) ;
+}
+
+.fully{
+    width: 90%;
+}
+
+.little{
+    width: 10%;
+    filter: brightness(0.2);
+    cursor: pointer;
+}

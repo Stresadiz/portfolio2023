@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.section{
+    background-color: gray;
+    position: relative;
+}
+
+.faq__title{
+    border: 1px solid white;
+    z-index: 100;
+    background-color: gray;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.faq__response{
+    display: none;
+    padding: 1em;
+    background-color: rgb(110, 104, 104);
+    border-left:1px solid white;
+    border-right: 1px solid white;
+}
+
+.active{
+    display: block;
+}
